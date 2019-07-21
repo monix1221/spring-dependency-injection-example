@@ -14,8 +14,8 @@ public class DependencyInjectionApplication {
         controller.sayHello();
 
         /**
-         * Spring profile leets spering resolve which bean to use
-         * here using controller, spring wouldnt know which bean to use
+         * Spring profile lets spring resolve which bean to use
+         * here using controller, spring wouldn't know which bean to use
          *
          * To use profile:
          * 1. annotate implementation with @Profile("profilename")
